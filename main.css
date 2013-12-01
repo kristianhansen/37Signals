@@ -72,6 +72,19 @@ div.logo {
 	text-align: center;
 }
 
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Times;
+}
 
+h3 {
+
+	font-family: Times;
+	font-size: 18px;
+	font-weight:bold;
+	text-align: center;
+}
 
 
