@@ -57,21 +57,48 @@ nav a {
 }
 
 nav.header_left {
+	float:left;
 	margin: 28px 0px 0px 60px;
 	
 }
+
+.clear{
+	clear:both;
+}
+
+.header_right{
+	margin: 20px 60px 0px 0px;
+	border:1px solid red;
+}
+.header_right ul {
+	float:right;
+}
+.header_right li {
+	float:left;
+	padding: 5px;
+}
+
 nav ul li {
 	display: inline-block;
-	color: #336699;
 	font-family: 'Lucida Grande';
 	font-size: 12px;
-	float:right;
+	
+}
+
+nav ul li a {
+color: #336699;
+
 }
 
 div.logo {
-	text-align: center;
+	display: block;
+	margin: auto;
+	text-align:center;
 }
 
+.headline {
+	width:500;
+}
 h1 {
 	font-size: 45px;
 	font-weight: bold;
