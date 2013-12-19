@@ -66,12 +66,9 @@ nav.header_left {
         clear:both;
 }
 
-.header_right{
-        margin: 20px 60px 0px 0px;
-        border:1px solid red;
-}
 .header_right ul {
         float:right;
+        margin-right: 40px;
 }
 .header_right li {
         float:left;
@@ -83,40 +80,16 @@ nav ul li {
         font-family: 'Lucida Grande';
         font-size: 12px;
 	   float:left;
-	   margin: 28px 0px 0px 60px;
-	
-}
-
-.clear{
-	clear:both;
-}
-
-.header_right{
-	margin: 20px 60px 0px 0px;
-	border:1px solid red;
-}
-.header_right ul {
-	float:right;
-}
-.header_right li {
-	float:left;
-	padding: 5px;
-}
-
-nav ul li {
-	display: inline-block;
-	font-family: 'Lucida Grande';
-	font-size: 12px;
-}
+	   margin: 28px 0px 0px 20px;
+	}
 
 nav ul li a {
 color: #336699;
-
 }
 
 div.logo {
         display: block;
-        margin: auto;
+        margin-top:20px;
         text-align:center;
 }
 
@@ -164,21 +137,31 @@ h3 {
         text-decoration: none;
     }
 
+.container img{
+    margin-top: 20px;
+}
+
 h2 {
+    margin-bottom: 15px
+}
+
+h2 span {
     color:#369;
     font-style: 'Lucida Grande';
     font-size: 21px;
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 15px
+    
 }
 
-h2 span {
+sup {
+    font-size: 12px;
     text-decoration: none;
     vertical-align: super;
     color:#999;
-}
 
+}
 h4{
     color: #cc0000;
     font-size: 14px;
@@ -186,18 +169,22 @@ h4{
     margin: 5px 10px;
     font-weight: bold;
 
+
 }
 
-div {
+.container div {
 
     font-family:'lucida grande';
     font-size: 14px;
     color:#222;
     margin-top: 15px;
-    line-height: 1.4em;
 	display: block;
 	margin: auto;
 	text-align:center;
+    line-height:1.4em 
 }
 
-
+.stars{
+        text-align: center;
+        margin-top: 20px;
+}
