@@ -57,6 +57,7 @@ nav a {
 }
 
 nav.header_left {
+<<<<<<< HEAD
         float:left;
         margin: 28px 0px 0px 60px;
         
@@ -83,6 +84,34 @@ nav ul li {
         font-family: 'Lucida Grande';
         font-size: 12px;
         
+=======
+	float:left;
+	margin: 28px 0px 0px 60px;
+	
+}
+
+.clear{
+	clear:both;
+}
+
+.header_right{
+	margin: 20px 60px 0px 0px;
+	border:1px solid red;
+}
+.header_right ul {
+	float:right;
+}
+.header_right li {
+	float:left;
+	padding: 5px;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: 'Lucida Grande';
+	font-size: 12px;
+	
+>>>>>>> e508cf116943959e38b0e515c538c6fe7197e107
 }
 
 nav ul li a {
@@ -91,6 +120,7 @@ color: #336699;
 }
 
 div.logo {
+<<<<<<< HEAD
         display: block;
         margin: auto;
         text-align:center;
@@ -172,8 +202,29 @@ div {
     color:#222;
     margin-top: 15px;
     line-height: 1.4em;
+=======
+	display: block;
+	margin: auto;
+	text-align:center;
 }
 
+.headline {
+	width:500;
+}
+h1 {
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Times;
+>>>>>>> e508cf116943959e38b0e515c538c6fe7197e107
+}
 
+h3 {
+
+	font-family: Times;
+	font-size: 18px;
+	font-weight:bold;
+	text-align: center;
+}
 
 
